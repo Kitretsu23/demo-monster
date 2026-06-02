@@ -8,7 +8,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return "Flask is running!"
+    return "Flask is running yayaa!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
